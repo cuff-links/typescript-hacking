@@ -1,12 +1,12 @@
 import { Bloodedness } from './bloodedness';
 export abstract class Animal {
-    dateOfBirth: Date;
+    dateOfBirth: number;
     personalName: string;
     species: string;
     color: string;
     bloodedness: Bloodedness;
 
-    constructor(name: string, dob: Date, color: string, blooded: Bloodedness, species: string) {
+    constructor(name: string, dob: number, color: string, blooded: Bloodedness, species: string) {
         this.personalName = name;
         this.dateOfBirth = dob;
         this.color = color;

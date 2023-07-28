@@ -15,6 +15,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "mocha -r ts-node/register test/**/**.test.ts"
+    "test:animal": "mocha -r ts-node/register test/animal_exercise/**/**.test.ts",
+    "test:linkedlist": "mocha -r ts-node/register test/single_linked_list/**/**.test.ts"
   }
 }

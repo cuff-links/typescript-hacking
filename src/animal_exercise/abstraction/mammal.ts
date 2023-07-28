@@ -1,21 +1,24 @@
 import { Animal } from './animal';
 export class Mammal extends Animal {
-    eat(food): void {
+    move(): string {
+        throw new Error('Method not implemented.');
+    }
+    eat(food): string {
         throw new Error("Method not implemented.");
     }
-    drink(): void {
+    drink(): string {
         throw new Error("Method not implemented.");
     }
-    expelWaste(): void {
+    expelWaste(): string {
         throw new Error("Method not implemented.");
     }
     reproduce(): Animal {
         throw new Error("Method not implemented.");
     }
-    communicate(): void {
+    communicate(): string {
         throw new Error("Method not implemented.");
     }
-    breathe(): void {
-
+    breathe(): string {
+        throw new Error("Method not implemented.");
     }
 }
